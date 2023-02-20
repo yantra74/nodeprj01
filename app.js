@@ -7,10 +7,11 @@ const os = require('os');
 // Printing os.hostname() value
 if(os.hostname()) {
 	var hostname = os.hostname();
+	var platform =os.platform();
 	console.log("Hostname for the operating"
 		+ " system is " + String(hostname));
 
-		console.log(os.platform);
-		console.log(os.cpus);
-		console.log(os.version)
+	console.log("Platform :" + platform);
+		//console.log(os.cpus);
+		//console.log(os.version);
 }
