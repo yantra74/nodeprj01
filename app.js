@@ -11,4 +11,5 @@ if(os.hostname()) {
 		+ " system is " + String(hostname));
 
 		console.log(os.platform);
+		console.log(os.cpus);
 }
