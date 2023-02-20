@@ -10,5 +10,5 @@ if(os.hostname()) {
 	console.log("Hostname for the operating"
 		+ " system is " + String(hostname));
 
-		//console.log(os.platform);
+		console.log(os.platform);
 }
